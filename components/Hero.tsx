@@ -65,12 +65,8 @@ export default function Hero({
           </h1>
 
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-cream/85 sm:text-lg">
-            <strong className="font-semibold text-cream">
-              {insightCount.toLocaleString("en-IN")}+
-            </strong>{" "}
-            money lessons from{" "}
-            <strong className="font-semibold text-cream">{videoCount}+</strong> Labour Law
-            Advisor videos, distilled, searchable, and free. Made for people who&apos;d rather
+            The sharpest money lessons from Labour Law Advisor&apos;s catalog,
+            distilled, searchable, and free. Made for people who&apos;d rather
             get <span className="text-gold">Jagruk</span> than scroll.
           </p>
 

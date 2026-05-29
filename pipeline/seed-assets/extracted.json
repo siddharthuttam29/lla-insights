@@ -87,6 +87,72 @@
       "durationSec": 1252,
       "publishedAt": "2026-01-29T14:34:54Z",
       "isShort": false
+    },
+    {
+      "id": "_ObE0wvE5Qs",
+      "title": "Best Tax Saving Guide | Complete tax planning for salaried persons",
+      "publishedAt": "2021-04-27T15:50:22Z",
+      "views": 3442046,
+      "likes": 89550,
+      "comments": 2762,
+      "durationSec": 1080,
+      "topic": "Tax",
+      "isShort": false
+    },
+    {
+      "id": "GqYfI1h4_Yg",
+      "title": "Reality of Money Back Plans, Guaranteed Income, Endowment | Insurance + Investment?",
+      "publishedAt": "2020-12-04T14:06:32Z",
+      "views": 3401447,
+      "likes": 108641,
+      "comments": 9748,
+      "durationSec": 840,
+      "topic": "Investing",
+      "isShort": false
+    },
+    {
+      "id": "00DRsxH-im8",
+      "title": "How Influencers & Media SCAM you | CHEATERS ultra pro max!",
+      "publishedAt": "2022-09-11T08:00:12Z",
+      "views": 3187473,
+      "likes": 161358,
+      "comments": 14381,
+      "durationSec": 960,
+      "topic": "Money Mindset",
+      "isShort": false
+    },
+    {
+      "id": "wFDidmRsSpY",
+      "title": "How to BUY SELL SHARES on Zerodha Demat a/c, KITE APP? Live Demo!",
+      "publishedAt": "2020-05-20T12:00:00Z",
+      "views": 2989556,
+      "likes": 113298,
+      "comments": 2925,
+      "durationSec": 780,
+      "topic": "Investing",
+      "isShort": false
+    },
+    {
+      "id": "7AVw6BIM3Uk",
+      "title": "How to save money | 8 Practical tips in Hindi",
+      "publishedAt": "2018-09-05T12:00:00Z",
+      "views": 2775834,
+      "likes": 89566,
+      "comments": 4638,
+      "durationSec": 600,
+      "topic": "Money Mindset",
+      "isShort": false
+    },
+    {
+      "id": "SNpjZ_wW7lQ",
+      "title": "How to file ITR AY2025-26? ITR filing TUTORIAL for SALARIED EMPLOYEES | ITR 1",
+      "publishedAt": "2023-07-13T12:00:00Z",
+      "views": 2474435,
+      "likes": 49984,
+      "comments": 1599,
+      "durationSec": 960,
+      "topic": "Tax",
+      "isShort": false
     }
   ],
   "insights": [
@@ -831,6 +897,534 @@
         "PF transfer"
       ],
       "offsetSec": 1140
+    },
+    {
+      "videoId": "_ObE0wvE5Qs",
+      "takeaway": "Understand the difference between tax exemptions (reduce taxable income) and deductions (reduce net taxable income) for effective tax planning.",
+      "quote": "EARNING - EXEMPTIONS = TAXABLE INCOME. and, TAXABLE INCOME - DEDUCTIONS = NET TAXABLE INCOME.",
+      "topic": "Tax",
+      "tags": [
+        "Tax Planning",
+        "Basics",
+        "Income Tax"
+      ],
+      "offsetSec": 84
+    },
+    {
+      "videoId": "_ObE0wvE5Qs",
+      "takeaway": "When choosing a tax regime, compare post-tax returns. An 8% tax-exempt PPF return can equal a 12-13% return from other funds in the old regime.",
+      "quote": "8% return in PPF is approximately equal to 12%-13% return in equity or debt mutual fund.",
+      "topic": "Tax",
+      "tags": [
+        "Tax Regime",
+        "Investing",
+        "PPF"
+      ],
+      "offsetSec": 186
+    },
+    {
+      "videoId": "_ObE0wvE5Qs",
+      "takeaway": "Optimize your HRA exemption by strategically adjusting your basic salary component; there's an ideal balance for maximum tax savings based on your rent.",
+      "quote": "For every rent there is an optimized number you can keep for HRA to save maximum tax.",
+      "topic": "Salary & PF",
+      "tags": [
+        "HRA",
+        "Salary Structure",
+        "Tax Saving"
+      ],
+      "offsetSec": 405
+    },
+    {
+      "videoId": "_ObE0wvE5Qs",
+      "takeaway": "Utilize Leave Travel Allowance (LTA) for family travel expenses (train, flight) for up to two trips in four years, if offered by your company.",
+      "quote": "Your travel expenses for train, flight, etc., can be exempted under Leave Travel Allowance (LTA).",
+      "topic": "Salary & PF",
+      "tags": [
+        "LTA",
+        "Travel",
+        "Exemption"
+      ],
+      "offsetSec": 476
+    },
+    {
+      "videoId": "_ObE0wvE5Qs",
+      "takeaway": "Claim reimbursements for office-related expenses like mobile, internet bills, or food coupons (e.g., Sodexo for Rs 31,200 annually) to save tax.",
+      "quote": "Try to claim such small expenses made on behalf of the company as reimbursements rather than as allowances.",
+      "topic": "Salary & PF",
+      "tags": [
+        "Reimbursements",
+        "Allowances",
+        "Tax Exemption"
+      ],
+      "offsetSec": 621
+    },
+    {
+      "videoId": "_ObE0wvE5Qs",
+      "takeaway": "Salaried employees should always claim the Rs 50,000 Standard Deduction, as it automatically reduces your taxable income.",
+      "quote": "Salaried employees can firstly opt for Rs 50,000 standard deduction, which is a no-brainer.",
+      "topic": "Tax",
+      "tags": [
+        "Standard Deduction",
+        "Salaried",
+        "Tax Saving"
+      ],
+      "offsetSec": 701
+    },
+    {
+      "videoId": "_ObE0wvE5Qs",
+      "takeaway": "Exercise caution with NPS (80CCD) due to high lock-in and low annuity returns. Only opt for it if essential to reduce taxable income below a slab.",
+      "quote": "I don't suggest it a lot since the lock-in period is high. Upon retirement, you have to buy minimum 40% annuity.",
+      "topic": "Investing",
+      "tags": [
+        "NPS",
+        "Retirement",
+        "Tax Deduction"
+      ],
+      "offsetSec": 773
+    },
+    {
+      "videoId": "_ObE0wvE5Qs",
+      "takeaway": "Claim health insurance premiums under 80D (up to Rs 25,000 for self/family, Rs 50,000 for parents) and Rs 5,000 for preventive health check-ups.",
+      "quote": "Under health insurance, you can claim maximum upto Rs 25,000 personally and Rs 50,000 for parents.",
+      "topic": "Insurance",
+      "tags": [
+        "Health Insurance",
+        "80D",
+        "Tax Deduction"
+      ],
+      "offsetSec": 838
+    },
+    {
+      "videoId": "_ObE0wvE5Qs",
+      "takeaway": "Do not take loans like home or electric vehicle loans solely for tax benefits; only opt for them if genuinely necessary.",
+      "quote": "Now, do not forcefully take such loans to save tax.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Loans",
+        "Tax Planning",
+        "Home Loan"
+      ],
+      "offsetSec": 907
+    },
+    {
+      "videoId": "GqYfI1h4_Yg",
+      "takeaway": "Avoid insurance plans that combine investment and insurance, as they typically offer inadequate life cover and poor investment returns.",
+      "quote": "This is Insurance + Investment",
+      "topic": "Insurance",
+      "tags": [
+        "Combo plans",
+        "Endowment",
+        "Poor returns"
+      ],
+      "offsetSec": 23
+    },
+    {
+      "videoId": "GqYfI1h4_Yg",
+      "takeaway": "High commissions (up to 25%) motivate agents to sell combo insurance plans, even if these products are not beneficial for customers.",
+      "quote": "Agents get high commissions up to 25% when they sell these plans",
+      "topic": "Insurance",
+      "tags": [
+        "Agent commission",
+        "Mis-selling",
+        "Incentives"
+      ],
+      "offsetSec": 4
+    },
+    {
+      "videoId": "GqYfI1h4_Yg",
+      "takeaway": "Combo insurance plans provide insufficient life cover; for example, a Rs 50,000 annual premium might only yield a Rs 6.5 lakh sum assured, far below recommended levels.",
+      "quote": "My sum assured is 6.5 lakh if I pay 50,000 Rupees premium annually",
+      "topic": "Insurance",
+      "tags": [
+        "Life cover",
+        "Inadequate",
+        "Sum assured"
+      ],
+      "offsetSec": 12
+    },
+    {
+      "videoId": "GqYfI1h4_Yg",
+      "takeaway": "The investment component of combo insurance plans offers extremely low Internal Rate of Return (IRR), often around 5-6%, which is typically worse than fixed deposits and fails to beat inflation.",
+      "quote": "your money will grow with a rate of only 5% in this plan",
+      "topic": "Investing",
+      "tags": [
+        "IRR",
+        "Low returns",
+        "Inflation"
+      ],
+      "offsetSec": 7
+    },
+    {
+      "videoId": "GqYfI1h4_Yg",
+      "takeaway": "Surrendering combo insurance plans prematurely results in substantial financial losses; you might lose over half of your total premiums paid.",
+      "quote": "I will get only 85K Rupees if I surrender it today. It means I have to face a loss of 1.15 Lakh",
+      "topic": "Insurance",
+      "tags": [
+        "Surrender value",
+        "Loss",
+        "Lock-in"
+      ],
+      "offsetSec": 4
+    },
+    {
+      "videoId": "GqYfI1h4_Yg",
+      "takeaway": "Bonuses declared in combo insurance policies are often paid only at maturity, years after declaration, significantly reducing their real value due to inflation.",
+      "quote": "That bonus will be in your policy and you will get it on maturity after 10 more years",
+      "topic": "Insurance",
+      "tags": [
+        "Bonuses",
+        "Inflation",
+        "Maturity"
+      ],
+      "offsetSec": 0
+    },
+    {
+      "videoId": "GqYfI1h4_Yg",
+      "takeaway": "Investing in low-return combo insurance plans for years leads to massive opportunity costs; the same money invested in good mutual funds could yield significantly higher wealth.",
+      "quote": "You are in an 18.5 Lakh loss if you are invested in these plans for only 10 years",
+      "topic": "Investing",
+      "tags": [
+        "Opportunity cost",
+        "Wealth creation",
+        "SIP"
+      ],
+      "offsetSec": 4
+    },
+    {
+      "videoId": "GqYfI1h4_Yg",
+      "takeaway": "Build financial security by prioritizing term insurance, health insurance, an emergency fund (6 months' salary), and then diversified investments in stocks, mutual funds, and debt.",
+      "quote": "Your priority should be to take term insurance for yourself",
+      "topic": "Money Mindset",
+      "tags": [
+        "Financial planning",
+        "Term insurance",
+        "Emergency fund"
+      ],
+      "offsetSec": 7
+    },
+    {
+      "videoId": "GqYfI1h4_Yg",
+      "takeaway": "Always conduct your own research and verify financial advice, even from trusted relatives or agents, as their incentives might not align with your best interests.",
+      "quote": "I request you that don't trust blindly on anyone including me",
+      "topic": "Money Mindset",
+      "tags": [
+        "Due diligence",
+        "Financial literacy",
+        "Research"
+      ],
+      "offsetSec": 33
+    },
+    {
+      "videoId": "00DRsxH-im8",
+      "takeaway": "Be cautious about financial advice from influencers, especially those promoting unregulated trading apps, as their incentives often conflict with viewers' financial well-being.",
+      "quote": "financial advice should not be taken from everyone.",
+      "topic": "Money Mindset",
+      "tags": [
+        "Influencers",
+        "Financial advice",
+        "Trust"
+      ],
+      "offsetSec": 510
+    },
+    {
+      "videoId": "wFDidmRsSpY",
+      "takeaway": "Organize your favorite stocks into up to five watchlists on Zerodha Kite, each holding 50 stocks, for quick and efficient access.",
+      "quote": "You have 5 lists so you can add different stocks as you wish",
+      "topic": "Investing",
+      "tags": [
+        "Watchlist",
+        "Zerodha",
+        "Kite"
+      ],
+      "offsetSec": 98
+    },
+    {
+      "videoId": "wFDidmRsSpY",
+      "takeaway": "In Zerodha Kite, \"Holdings\" are for shares held overnight (delivery), while \"Positions\" are for stocks bought and sold within the same trading day (intraday).",
+      "quote": "Holdings mean your equity deliveries. If you hold more than a day, then it comes in holdings",
+      "topic": "Investing",
+      "tags": [
+        "Holdings",
+        "Positions",
+        "Intraday"
+      ],
+      "offsetSec": 200
+    },
+    {
+      "videoId": "wFDidmRsSpY",
+      "takeaway": "Use CNC (Cash N Carry) for holding shares longer than a day (delivery) and MIS (Margin Intraday Square Off) for buying and selling stocks within the same trading day.",
+      "quote": "CNC means CASH N CARRY. We choose this option when we want to hold shares for more than a day (Delivery)",
+      "topic": "Investing",
+      "tags": [
+        "CNC",
+        "MIS",
+        "Delivery"
+      ],
+      "offsetSec": 302
+    },
+    {
+      "videoId": "wFDidmRsSpY",
+      "takeaway": "A Market order executes at the current market price. A Limit order allows you to set a desired price, but it will only execute if that price is met.",
+      "quote": "MARKET always means the price which is being traded in the market... LIMIT always means that stock will be bought/sold at your desired price",
+      "topic": "Investing",
+      "tags": [
+        "Market Order",
+        "Limit Order",
+        "Trading"
+      ],
+      "offsetSec": 354
+    },
+    {
+      "videoId": "wFDidmRsSpY",
+      "takeaway": "Use Stop Loss Limit (SL) or Stop Loss Market (SLM) orders to protect against significant losses. These orders automatically sell your shares when a set trigger price is reached.",
+      "quote": "STOP LOSS LIMIT and STOP LOSS MARKET are the orders which protect you from a loss",
+      "topic": "Investing",
+      "tags": [
+        "Stop Loss",
+        "Risk Management",
+        "Trading"
+      ],
+      "offsetSec": 468
+    },
+    {
+      "videoId": "wFDidmRsSpY",
+      "takeaway": "Bracket Orders (BO) let you set a target profit, a stop loss, and a trailing stop loss simultaneously for intraday trades, managing both risk and reward.",
+      "quote": "In bracket order, you can set a stop loss And you can also set a cap on your profit also",
+      "topic": "Investing",
+      "tags": [
+        "Bracket Order",
+        "Intraday",
+        "Risk Management"
+      ],
+      "offsetSec": 527
+    },
+    {
+      "videoId": "wFDidmRsSpY",
+      "takeaway": "Use After Market Orders (AMO) to place buy or sell orders even when the market is closed. These orders will be executed on the next trading day.",
+      "quote": "You can put order even after market hours and it will be executed the next day",
+      "topic": "Investing",
+      "tags": [
+        "AMO",
+        "After Market",
+        "Trading"
+      ],
+      "offsetSec": 652
+    },
+    {
+      "videoId": "wFDidmRsSpY",
+      "takeaway": "GTT (Good Till Triggered) orders remain valid for one year, allowing you to set specific buy or sell price triggers for long-term investing without daily market tracking.",
+      "quote": "GTT means this order will be valid for 1 year and you can place 50 orders like this",
+      "topic": "Investing",
+      "tags": [
+        "GTT",
+        "Long Term Investing",
+        "Automated Trading"
+      ],
+      "offsetSec": 893
+    },
+    {
+      "videoId": "wFDidmRsSpY",
+      "takeaway": "Be aware that GTT orders can be canceled if the stock undergoes a split or if the trigger price is met but the final buy/sell price is not achieved.",
+      "quote": "Suppose ONGC split its stock Then the 1 share of 78 may be changed in 2 shares of 39 Then your all entries... will be considered invalid and your GTT order will be canceled.",
+      "topic": "Investing",
+      "tags": [
+        "GTT",
+        "Order Cancellation",
+        "Stock Split"
+      ],
+      "offsetSec": 1039
+    },
+    {
+      "videoId": "7AVw6BIM3Uk",
+      "takeaway": "Avoid unnecessary credit or small loans. Only take significant loans for assets like a house, car, or business if you have a clear repayment plan based on your income.",
+      "quote": "That's why take a loan only when you desperately need it.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Debt",
+        "Loans",
+        "Financial Discipline"
+      ],
+      "offsetSec": 193
+    },
+    {
+      "videoId": "7AVw6BIM3Uk",
+      "takeaway": "Maintain proper accounts to track your expenses. This helps identify where your money truly goes, allowing you to make informed decisions and reduce unnecessary spending.",
+      "quote": "So if you maintain your accounts properly and tally it in month end, You will be able to analyze, head-wise expenses and save a lot.",
+      "topic": "Money Mindset",
+      "tags": [
+        "Budgeting",
+        "Spending",
+        "Tracking"
+      ],
+      "offsetSec": 300
+    },
+    {
+      "videoId": "7AVw6BIM3Uk",
+      "takeaway": "Quitting bad habits like smoking or excessive drinking can save significant money over time. Investing these daily savings can lead to substantial wealth growth and improve your health.",
+      "quote": "If you save 50 rs a day, how much you will save in a month? You will save 1500 in a month, in a year? 18,000/-",
+      "topic": "Money Mindset",
+      "tags": [
+        "Savings",
+        "Health",
+        "Discipline"
+      ],
+      "offsetSec": 332
+    },
+    {
+      "videoId": "7AVw6BIM3Uk",
+      "takeaway": "Maintain meticulous records of important documents like insurance policies, warranty cards, and PF details. This prevents late penalties, lost benefits, and unnecessary expenses.",
+      "quote": "You will proper record keeping will benefit immensely in long run.",
+      "topic": "Money Mindset",
+      "tags": [
+        "Organization",
+        "Documents",
+        "Penalties"
+      ],
+      "offsetSec": 459
+    },
+    {
+      "videoId": "7AVw6BIM3Uk",
+      "takeaway": "Simply saving money isn't enough; you must invest it to combat inflation. Choose investment options that suit you, ensuring your money grows over time rather than losing value.",
+      "quote": "The money in bank, piggy bank or at home is not safe, Inflation eats it, Reduces it's value, That's why you not only have to save your money But also invest it.",
+      "topic": "Investing",
+      "tags": [
+        "Inflation",
+        "Savings",
+        "Wealth Growth"
+      ],
+      "offsetSec": 572
+    },
+    {
+      "videoId": "7AVw6BIM3Uk",
+      "takeaway": "Understand your household's consumption patterns for daily consumables. Buying these items in bulk can significantly reduce costs compared to purchasing small packs regularly.",
+      "quote": "Higher the quantity, lower the price! So if you know your consumption, stop buying small packs and buy in bulk.",
+      "topic": "Money Mindset",
+      "tags": [
+        "Shopping",
+        "Savings",
+        "Household Expenses"
+      ],
+      "offsetSec": 667
+    },
+    {
+      "videoId": "7AVw6BIM3Uk",
+      "takeaway": "Prioritize and invest in your health, even if it means spending on gym memberships or activities. Good health is crucial for earning capacity and enjoying your wealth in the long term.",
+      "quote": "IF your body does not support how will you earn ? And even if you earn somehow, what's the point if you can not utilize it / enjoy it?",
+      "topic": "Money Mindset",
+      "tags": [
+        "Well-being",
+        "Earning",
+        "Lifestyle"
+      ],
+      "offsetSec": 793
+    },
+    {
+      "videoId": "7AVw6BIM3Uk",
+      "takeaway": "Continuously learn new skills and adapt to technological changes. This ensures you remain relevant in the job market, opens new opportunities, and provides alternative income streams.",
+      "quote": "In this challenging environment only those will thrive, who will continue to learn.",
+      "topic": "Money Mindset",
+      "tags": [
+        "Skills",
+        "Career",
+        "Adaptability"
+      ],
+      "offsetSec": 886
+    },
+    {
+      "videoId": "SNpjZ_wW7lQ",
+      "takeaway": "Salaried individuals with income from one house property, interest/dividend, and small agricultural income can file ITR 1.",
+      "quote": "If these 3 Heads i.e Income from Salary, Income from One House Property and Income from Other Sources If you have that Then you can file ITR 1",
+      "topic": "Tax",
+      "tags": [
+        "ITR",
+        "Filing",
+        "Eligibility"
+      ],
+      "offsetSec": 33
+    },
+    {
+      "videoId": "SNpjZ_wW7lQ",
+      "takeaway": "Do not file ITR 1 if you are a company director, hold unlisted shares or foreign assets, have capital gains, or wish to carry forward losses.",
+      "quote": "Who cannot file ITR 1 If someone is a Director in the company If they have unlisted shares i.e If they have ESOPs Or If they have an Asset beyond India",
+      "topic": "Tax",
+      "tags": [
+        "ITR",
+        "Eligibility",
+        "Capital Gains"
+      ],
+      "offsetSec": 70
+    },
+    {
+      "videoId": "SNpjZ_wW7lQ",
+      "takeaway": "Use Form 16 from your employer, Form 26AS for TDS details, and the Annual Information Statement (AIS) to accurately file your ITR.",
+      "quote": "For this, you will have to see 2 simple forms 1st Form is Form 16 2nd Form is Form 26AS",
+      "topic": "Tax",
+      "tags": [
+        "ITR",
+        "Documents",
+        "Form 16"
+      ],
+      "offsetSec": 117
+    },
+    {
+      "videoId": "SNpjZ_wW7lQ",
+      "takeaway": "If your employer missed some income or deductions, you can rectify these details while filing your Income Tax Return (ITR) to ensure accuracy.",
+      "quote": "This amount can become more or less Which while filing ITR you can rectify.",
+      "topic": "Tax",
+      "tags": [
+        "ITR",
+        "Deductions",
+        "Declarations"
+      ],
+      "offsetSec": 186
+    },
+    {
+      "videoId": "SNpjZ_wW7lQ",
+      "takeaway": "When claiming exemptions or deductions in your ITR, ensure you have proper proof for each claim to avoid issues with tax authorities.",
+      "quote": "If you are adamant You want to declare some exemptions here Then you do it But you need to have proper proof of that",
+      "topic": "Tax",
+      "tags": [
+        "Deductions",
+        "Proof",
+        "ITR"
+      ],
+      "offsetSec": 518
+    },
+    {
+      "videoId": "SNpjZ_wW7lQ",
+      "takeaway": "Tax planning is a continuous process from April 1st to March 31st; ITR filing is done closer to the deadline and cannot include new planning.",
+      "quote": "Tax Planning starts from 1st April and ends on 31st March After that, you cannot do any Planning.",
+      "topic": "Tax",
+      "tags": [
+        "Tax Planning",
+        "ITR",
+        "Deadlines"
+      ],
+      "offsetSec": 1009
+    },
+    {
+      "videoId": "SNpjZ_wW7lQ",
+      "takeaway": "Declare additional income like freelancing or rental income to your employer; this helps avoid interest penalties for late advance tax payments.",
+      "quote": "There won't be any interest penalty levied on you For paying Late Tax",
+      "topic": "Tax",
+      "tags": [
+        "Advance Tax",
+        "Income Declaration",
+        "Penalty"
+      ],
+      "offsetSec": 1050
+    },
+    {
+      "videoId": "SNpjZ_wW7lQ",
+      "takeaway": "Submit all deduction proofs (e.g., ELSS, Mediclaim) to your employer by November-December to prevent excess TDS and avoid opportunity loss on refunds.",
+      "quote": "you definitely submit to the employer So that it gets updated in Form 16",
+      "topic": "Tax",
+      "tags": [
+        "Deductions",
+        "TDS",
+        "Form 16"
+      ],
+      "offsetSec": 1076
     }
   ]
 }
