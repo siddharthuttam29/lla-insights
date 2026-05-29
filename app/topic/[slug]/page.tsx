@@ -27,10 +27,25 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-export default function TopicPage({ params }: { params: { slug: string } }) {
+// Server-rendered pagination so each page is independently shareable + SEO-
+// indexable. Uses ?page=N (1-based). Page size = 30, matching the home grid.
+const PAGE_SIZE = 30;
+
+export default function TopicPage({
+  params,
+  searchParams,
+}: {
+  params: { slug: string };
+  searchParams?: { page?: string };
+}) {
   const topic = slugToTopic(params.slug);
   if (!topic) notFound();
   const list = sortInsights(insightsForTopic(topic), "views");
+
+  const totalPages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+  const page = Math.min(totalPages, Math.max(1, parseInt(searchParams?.page ?? "1", 10) || 1));
+  const start = (page - 1) * PAGE_SIZE;
+  const visible = list.slice(start, start + PAGE_SIZE);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -84,11 +99,73 @@ export default function TopicPage({ params }: { params: { slug: string } }) {
           No lessons here yet, this topic fills in as more of LLA&apos;s catalog is processed.
         </p>
       ) : (
-        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {list.map((i) => (
-            <InsightCard key={i.id} insight={i} />
-          ))}
-        </div>
+        <>
+          <div className="mt-6 flex items-baseline justify-between text-sm text-muted">
+            <span>
+              Showing{" "}
+              <span className="font-semibold text-ink">
+                {start + 1}-{start + visible.length}
+              </span>{" "}
+              of {list.length}
+            </span>
+            {totalPages > 1 && (
+              <span className="text-[0.72rem] uppercase tracking-wide">
+                Page {page} of {totalPages}
+              </span>
+            )}
+          </div>
+
+          <div className="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {visible.map((i) => (
+              <InsightCard key={i.id} insight={i} />
+            ))}
+          </div>
+
+          {totalPages > 1 && (
+            <nav
+              aria-label="Pagination"
+              className="mt-10 flex flex-wrap items-center justify-center gap-2"
+            >
+              {page > 1 && (
+                <Link
+                  href={`/topic/${params.slug}${page === 2 ? "" : `?page=${page - 1}`}`}
+                  className="rounded-full border border-line bg-card px-4 py-2 text-sm font-semibold text-ink hover:border-maroon/40"
+                >
+                  ← Previous
+                </Link>
+              )}
+              {Array.from({ length: totalPages }, (_, i) => i + 1)
+                // compact range: first, last, and ±1 around current
+                .filter((p) => p === 1 || p === totalPages || Math.abs(p - page) <= 1)
+                .map((p, idx, arr) => (
+                  <span key={p} className="flex items-center gap-2">
+                    {idx > 0 && arr[idx - 1] !== p - 1 && (
+                      <span className="text-muted">…</span>
+                    )}
+                    <Link
+                      href={`/topic/${params.slug}${p === 1 ? "" : `?page=${p}`}`}
+                      aria-current={p === page ? "page" : undefined}
+                      className={`grid h-9 min-w-9 place-items-center rounded-full px-3 text-sm font-semibold transition ${
+                        p === page
+                          ? "bg-maroon text-cream"
+                          : "border border-line bg-card text-ink hover:border-maroon/40"
+                      }`}
+                    >
+                      {p}
+                    </Link>
+                  </span>
+                ))}
+              {page < totalPages && (
+                <Link
+                  href={`/topic/${params.slug}?page=${page + 1}`}
+                  className="rounded-full border border-line bg-card px-4 py-2 text-sm font-semibold text-ink hover:border-maroon/40"
+                >
+                  Next →
+                </Link>
+              )}
+            </nav>
+          )}
+        </>
       )}
     </div>
   );

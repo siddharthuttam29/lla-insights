@@ -1,8 +1,15 @@
 "use client";
 
-import { SearchX } from "lucide-react";
+import { ChevronDown, SearchX } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useMemo } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+
+// Cap the initial render so 929 cards don't all hit the DOM at once. Local
+// state (not URL) so "Load more" doesn't pollute history, and so navigating
+// away + back doesn't lose your scroll position. Reset when topic/q/sort
+// changes (different query, fresh start).
+const TOPIC_PAGE_SIZE = 30; // cards per page in the flat By-Topic grid
+const VIDEO_PAGE_SIZE = 12; // accordions per page in the By-Video view
 import type { Insight, Video } from "@/lib/types";
 import { slugToTopic, topicToSlug } from "@/lib/types";
 import { buildIndex, runSearch, sortInsights, type SortKey } from "@/lib/search";
@@ -82,6 +89,17 @@ export default function Explorer({
     filtered.length === 1 ? "lesson" : "lessons"
   }`;
 
+  // ── render pagination (local state) ────────────────────────────────────
+  const pageSize = view === "topic" ? TOPIC_PAGE_SIZE : VIDEO_PAGE_SIZE;
+  const totalUnits = view === "topic" ? filtered.length : videoGroups.length;
+  const [visibleCount, setVisibleCount] = useState(pageSize);
+  // Reset whenever the active query/filter changes so users don't see a stale
+  // "show 90" hangover when they switch topics.
+  useEffect(() => setVisibleCount(pageSize), [topic, q, sort, view, pageSize]);
+  const visibleCards = filtered.slice(0, visibleCount);
+  const visibleGroups = videoGroups.slice(0, visibleCount);
+  const remaining = Math.max(0, totalUnits - visibleCount);
+
   return (
     <>
       <FilterBar
@@ -101,7 +119,19 @@ export default function Explorer({
             {topic === "all" ? "All money lessons" : topic}
           </h2>
           <span className="text-sm text-muted">
-            {resultLabel}
+            {view === "topic" && totalUnits > pageSize ? (
+              <>
+                Showing <span className="font-semibold text-ink">{visibleCards.length}</span> of{" "}
+                {resultLabel}
+              </>
+            ) : view === "video" && totalUnits > pageSize ? (
+              <>
+                Showing <span className="font-semibold text-ink">{visibleGroups.length}</span> of{" "}
+                {videoGroups.length} videos · {resultLabel} total
+              </>
+            ) : (
+              resultLabel
+            )}
             {q && (
               <>
                 {" "}for &ldquo;<span className="text-ink">{q}</span>&rdquo;
@@ -114,11 +144,11 @@ export default function Explorer({
           <EmptyState />
         ) : view === "topic" ? (
           <div key={`${topic}-${q}-${sort}`} className="animate-fade-up">
-            <TopicGrid insights={filtered} />
+            <TopicGrid insights={visibleCards} />
           </div>
         ) : (
           <div key={`${topic}-${q}-${sort}`} className="flex animate-fade-up flex-col gap-3">
-            {videoGroups.map((g) => (
+            {visibleGroups.map((g) => (
               <VideoAccordion
                 key={g.video.id}
                 video={g.video}
@@ -126,6 +156,22 @@ export default function Explorer({
                 defaultOpen={!!q}
               />
             ))}
+          </div>
+        )}
+
+        {remaining > 0 && (
+          <div className="mt-10 flex flex-col items-center gap-3">
+            <button
+              type="button"
+              onClick={() => setVisibleCount((n) => n + pageSize)}
+              className="inline-flex items-center gap-2 rounded-full bg-maroon px-5 py-2.5 text-sm font-semibold text-cream shadow-card transition hover:bg-maroon-deep hover:shadow-card-hover focus-visible:ring-brand"
+            >
+              <ChevronDown size={16} />
+              Load {Math.min(pageSize, remaining)} more
+            </button>
+            <p className="text-[0.72rem] uppercase tracking-wide text-muted">
+              {remaining.toLocaleString("en-IN")} {view === "topic" ? "lessons" : "videos"} still hidden
+            </p>
           </div>
         )}
       </section>
