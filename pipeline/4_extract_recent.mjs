@@ -19,7 +19,7 @@ const CACHE = path.join(ROOT, "pipeline/.cache/transcripts");
 const OUT = path.join(ROOT, "pipeline/seed-assets/extracted.json");
 fs.mkdirSync(CACHE, { recursive: true });
 
-const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+const MODEL = process.env.GEMINI_MODEL || "gemini-flash-latest";
 
 // Recent LLA videos (REAL stats + durations, pulled 2026-05-30).
 const VIDEOS = [

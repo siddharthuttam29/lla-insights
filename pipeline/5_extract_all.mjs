@@ -19,7 +19,11 @@ const CACHE = path.join(ROOT, "pipeline/.cache/transcripts");
 const OUT = path.join(ROOT, "pipeline/seed-assets/extracted.json");
 fs.mkdirSync(CACHE, { recursive: true });
 
-const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+// `gemini-flash-latest` is Google's auto-tracking alias for the currently
+// recommended Flash tier (currently 2.5; rolls forward to 3.x as Google
+// promotes new versions). Pin a concrete model via GEMINI_MODEL if you need
+// reproducibility (e.g. "gemini-2.5-flash", "gemini-3.1-flash-lite").
+const MODEL = process.env.GEMINI_MODEL || "gemini-flash-latest";
 const TOPICS = ["Tax","Investing","Insurance","Salary & PF","Credit & Loans","Banking","Business & Startup","Real Estate","Govt Schemes","Money Mindset"];
 
 const SYSTEM = `You are an expert financial editor for India. You are given the transcript of a
