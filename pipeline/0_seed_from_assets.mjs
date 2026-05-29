@@ -252,6 +252,24 @@ const SRC = [
  { v: "qGuhSPTEERQ", t: "If you've been cheated, file on the National Cyber Crime portal and your consumer forum, and document everything you have.", topic: "Govt Schemes", tags: ["cybercrime", "complaint"], off: 640 },
 ];
 
+// ── Merge AI-extracted recent insights (from pipeline/4_extract_recent.mjs) ──
+// These are REAL: transcripts pulled via the public caption path, insights
+// extracted by Gemini, then accuracy-cleaned. Adds fresh 2026 coverage.
+const EXTRACTED_PATH = path.join(ROOT, "pipeline/seed-assets/extracted.json");
+if (fs.existsSync(EXTRACTED_PATH)) {
+  const ex = JSON.parse(fs.readFileSync(EXTRACTED_PATH, "utf8"));
+  for (const v of ex.videos || []) {
+    VIDEO_META[v.id] = {
+      title: v.title, publishedAt: v.publishedAt, views: v.views, likes: v.likes,
+      comments: v.comments, durationSec: v.durationSec, topic: v.topic, isShort: !!v.isShort,
+    };
+  }
+  for (const i of ex.insights || []) {
+    SRC.push({ v: i.videoId, t: i.takeaway, q: i.quote, topic: i.topic, tags: i.tags || [], off: i.offsetSec });
+  }
+  console.log(`merged ${(ex.insights || []).length} extracted insights from ${(ex.videos || []).length} recent videos`);
+}
+
 // ── Build insights.json ─────────────────────────────────────────────────────
 const perVideoIndex = {};
 const insights = SRC.map((s) => {

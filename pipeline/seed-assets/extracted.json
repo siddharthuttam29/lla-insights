@@ -1,0 +1,836 @@
+{
+  "videos": [
+    {
+      "id": "xGjdLbt3JUw",
+      "title": "Budget 2026 EXPLAINED in just 10 minutes",
+      "topic": "Tax",
+      "views": 565561,
+      "likes": 18553,
+      "comments": 1224,
+      "durationSec": 788,
+      "publishedAt": "2026-02-01T15:06:25Z",
+      "isShort": false
+    },
+    {
+      "id": "0D5AZcwK3I8",
+      "title": "I thought Rooftop Solar means 0 electricity bill..",
+      "topic": "Money Mindset",
+      "views": 930762,
+      "likes": 27469,
+      "comments": 3181,
+      "durationSec": 2204,
+      "publishedAt": "2026-04-24T12:45:01Z",
+      "isShort": false
+    },
+    {
+      "id": "dm5WGPmZXDM",
+      "title": "NPS just got a Major UPGRADE | NPS 3.0 vs NPS 2.0",
+      "topic": "Investing",
+      "views": 363890,
+      "likes": 6598,
+      "comments": 664,
+      "durationSec": 913,
+      "publishedAt": "2026-04-28T13:31:04Z",
+      "isShort": false
+    },
+    {
+      "id": "cE0n-fI5t-4",
+      "title": "50 Loan Terms That Can Save You Lakhs!",
+      "topic": "Credit & Loans",
+      "views": 239703,
+      "likes": 7841,
+      "comments": 599,
+      "durationSec": 1189,
+      "publishedAt": "2026-05-21T13:30:27Z",
+      "isShort": false
+    },
+    {
+      "id": "iNp02zXy748",
+      "title": "New Income Tax Rules 2025: The 7 Major Changes You MUST Know",
+      "topic": "Tax",
+      "views": 175276,
+      "likes": 3767,
+      "comments": 368,
+      "durationSec": 733,
+      "publishedAt": "2026-05-05T13:30:51Z",
+      "isShort": false
+    },
+    {
+      "id": "hjpna_RKXMA",
+      "title": "Bought my Dream Car on CREDIT CARD",
+      "topic": "Credit & Loans",
+      "views": 147917,
+      "likes": 5147,
+      "comments": 565,
+      "durationSec": 991,
+      "publishedAt": "2026-02-28T16:24:22Z",
+      "isShort": false
+    },
+    {
+      "id": "ajjPurSStdw",
+      "title": "0% GST on Life/Health Insurance Premiums, but you will PAY MORE!",
+      "topic": "Insurance",
+      "views": 163313,
+      "likes": 6144,
+      "comments": 454,
+      "durationSec": 621,
+      "publishedAt": "2025-09-20T16:17:37Z",
+      "isShort": false
+    },
+    {
+      "id": "YhFA9c3ByKY",
+      "title": "17 Mistakes to AVOID in every Job | Employers hide these from you!",
+      "topic": "Salary & PF",
+      "views": 102780,
+      "likes": 4585,
+      "comments": 373,
+      "durationSec": 1252,
+      "publishedAt": "2026-01-29T14:34:54Z",
+      "isShort": false
+    }
+  ],
+  "insights": [
+    {
+      "videoId": "xGjdLbt3JUw",
+      "takeaway": "A new ₹10,000 crore 'SME Growth Fund' and a ₹2,000 crore top-up for the 'Self-Reliant India Fund' have been introduced for MSMEs.",
+      "quote": "A new 'SME Growth Fund' worth ₹10,000 crore has been introduced for SMEs.",
+      "topic": "Business & Startup",
+      "tags": [
+        "MSME",
+        "Funding",
+        "Business"
+      ],
+      "offsetSec": 77
+    },
+    {
+      "videoId": "xGjdLbt3JUw",
+      "takeaway": "SMEs invoicing Central Public Sector Enterprises (CPSEs) must now use the TReDS platform for invoice discounting, ensuring timely payments.",
+      "quote": "Whenever the SMEs raise an invoice to the CPSE... it will be done through the TReDS platform.",
+      "topic": "Business & Startup",
+      "tags": [
+        "MSME",
+        "Payments",
+        "TReDS"
+      ],
+      "offsetSec": 106
+    },
+    {
+      "videoId": "xGjdLbt3JUw",
+      "takeaway": "A new, simplified Income Tax Act (2025) with easier rules and forms will be effective from April 1, 2026, simplifying individual tax compliance.",
+      "quote": "The new Income Tax Act (2025) will be levied from 1st April 2026.",
+      "topic": "Tax",
+      "tags": [
+        "Income Tax",
+        "Compliance",
+        "Simplification"
+      ],
+      "offsetSec": 319
+    },
+    {
+      "videoId": "xGjdLbt3JUw",
+      "takeaway": "A six-month 'One Time Foreign Asset Disclosure Scheme' is introduced to help individuals regularize undeclared foreign assets, avoiding penalties.",
+      "quote": "The government has introduced a 'One Time Foreign Asset Disclosure Scheme'.",
+      "topic": "Tax",
+      "tags": [
+        "Foreign Assets",
+        "Disclosure",
+        "Penalties"
+      ],
+      "offsetSec": 339
+    },
+    {
+      "videoId": "xGjdLbt3JUw",
+      "takeaway": "Tax Collected at Source (TCS) for foreign travel packages and remittances for education or medical payments abroad has been reduced from 5% to 2%.",
+      "quote": "The rate was currently at 5%, and the government has now reduced it to 2%.",
+      "topic": "Tax",
+      "tags": [
+        "TCS",
+        "Foreign Travel",
+        "Education"
+      ],
+      "offsetSec": 431
+    },
+    {
+      "videoId": "xGjdLbt3JUw",
+      "takeaway": "Securities Transaction Tax (STT) on Futures has increased from 0.02% to 0.05%, and on Options from 0.1% to 0.125%, impacting derivative traders.",
+      "quote": "The STT on Futures has now been increased from 0.02% to 0.05%.",
+      "topic": "Investing",
+      "tags": [
+        "STT",
+        "Derivatives",
+        "Trading"
+      ],
+      "offsetSec": 509
+    },
+    {
+      "videoId": "xGjdLbt3JUw",
+      "takeaway": "Capital gains exemption on Sovereign Gold Bonds (SGBs) now only applies if purchased directly from and redeemed with RBI, not from the open market.",
+      "topic": "Investing",
+      "tags": [
+        "SGB",
+        "Capital Gains",
+        "Gold"
+      ],
+      "offsetSec": 545
+    },
+    {
+      "videoId": "xGjdLbt3JUw",
+      "takeaway": "Income from share buybacks, previously taxed as 'Income from Other Source', will now be taxed as 'Capital Gains', potentially offering tax savings.",
+      "quote": "These were currently treated as 'Income from Other Source'... But these will be taxed as per 'Capital Gains'.",
+      "topic": "Tax",
+      "tags": [
+        "Share Buyback",
+        "Capital Gains",
+        "Tax Saving"
+      ],
+      "offsetSec": 575
+    },
+    {
+      "videoId": "xGjdLbt3JUw",
+      "takeaway": "The Animation, Visual Effects, Gaming, and Comics (AVGC) industry is projected to create two million jobs, with government support through 'Content Creator Labs'.",
+      "quote": "AVGC... There is a possibility of two million jobs to be created.",
+      "topic": "Business & Startup",
+      "tags": [
+        "AVGC",
+        "Job Market",
+        "Education"
+      ],
+      "offsetSec": 670
+    },
+    {
+      "videoId": "0D5AZcwK3I8",
+      "takeaway": "Installing an oversized solar plant is often uneconomical if DISCOM buyback rates are low and unused electricity credits lapse annually on March 31st.",
+      "quote": "How much does DISCOM pay you? It pays you ₹3.26... On March 31st, the applicable bill in minus will lapse.",
+      "topic": "Investing",
+      "tags": [
+        "Solar",
+        "DISCOM",
+        "Oversizing"
+      ],
+      "offsetSec": 539
+    },
+    {
+      "videoId": "0D5AZcwK3I8",
+      "takeaway": "Be aware that solar panels come in A, B, and C grades; lower-grade panels with defects might be used by some vendors, affecting long-term performance.",
+      "quote": "There are A grade, B grade, C grade... 20 panels, among them might have minor defects.",
+      "topic": "Money Mindset",
+      "tags": [
+        "Solar Panels",
+        "Quality",
+        "Vendor Selection"
+      ],
+      "offsetSec": 1021
+    },
+    {
+      "videoId": "0D5AZcwK3I8",
+      "takeaway": "A solar inverter can often operate at 125-130% of its rated capacity, potentially allowing a smaller, cheaper inverter for a slightly larger plant.",
+      "quote": "The Sungrow inverter operates at a capacity of 125% to 130%.",
+      "topic": "Investing",
+      "tags": [
+        "Solar",
+        "Inverter",
+        "Cost Saving"
+      ],
+      "offsetSec": 1130
+    },
+    {
+      "videoId": "0D5AZcwK3I8",
+      "takeaway": "For long-lasting solar structures, ensure they are prefabricated, anti-cyclonic, galvanised, and that all holes are pre-drilled before coating to prevent rust.",
+      "quote": "Solar panels can last that long. But we cannot say the same thing about this structure... The holes must be done prior to the galvanizing process.",
+      "topic": "Real Estate",
+      "tags": [
+        "Solar",
+        "Structure",
+        "Durability"
+      ],
+      "offsetSec": 1583
+    },
+    {
+      "videoId": "0D5AZcwK3I8",
+      "takeaway": "Central and state government subsidies significantly reduce solar plant costs, and reputable vendors can manage the entire subsidy and net meter application process.",
+      "quote": "₹78,000 subsidy from the central government... their team handled the application process on my behalf.",
+      "topic": "Govt Schemes",
+      "tags": [
+        "Solar",
+        "Subsidy",
+        "Net Metering"
+      ],
+      "offsetSec": 1701
+    },
+    {
+      "videoId": "0D5AZcwK3I8",
+      "takeaway": "Some solar vendors offer a \"good zero guarantee,\" compensating you if the solar plant generates less than a promised minimum electricity, mitigating performance risk.",
+      "quote": "If less electricity is generated, then difference amount will be paid by Solar Square.",
+      "topic": "Insurance",
+      "tags": [
+        "Solar",
+        "Guarantee",
+        "Performance"
+      ],
+      "offsetSec": 1750
+    },
+    {
+      "videoId": "0D5AZcwK3I8",
+      "takeaway": "When calculating solar ROI, accurately factor in annual panel degradation (e.g., 0.7%) and an assumed annual electricity bill inflation (e.g., 3%) over 25 years.",
+      "quote": "We have considered the annual degradation as respectable 0.7%... this electricity bill will inflate by 3% every year.",
+      "topic": "Investing",
+      "tags": [
+        "Solar",
+        "ROI",
+        "Degradation"
+      ],
+      "offsetSec": 1931
+    },
+    {
+      "videoId": "dm5WGPmZXDM",
+      "takeaway": "NPS offers a significant tax deduction (80CCD) up to ₹7.5 lakhs, even in the new tax regime, potentially saving ₹2.5 lakhs annually for high earners.",
+      "quote": "There is only one deduction left, i.e. 80 CCD. which is available to NPS and PPF subscribers.",
+      "topic": "Tax",
+      "tags": [
+        "Tax Savings",
+        "New Tax Regime",
+        "80CCD"
+      ],
+      "offsetSec": 79
+    },
+    {
+      "videoId": "dm5WGPmZXDM",
+      "takeaway": "NPS now allows up to 100% equity exposure in new schemes, similar to mutual funds, removing the previous 75% cap for younger investors seeking higher growth.",
+      "quote": "in the new schemes, upto 100% equity exposure, just like mutual funds has been allowed.",
+      "topic": "Investing",
+      "tags": [
+        "Equity",
+        "Investment Strategy",
+        "High Growth"
+      ],
+      "offsetSec": 215
+    },
+    {
+      "videoId": "dm5WGPmZXDM",
+      "takeaway": "The NPS lock-in period has been significantly reduced to 15 years or until age 60, whichever is earlier, offering much greater liquidity than before.",
+      "quote": "The rule has now been changed to either 15 years or until the age of 60.",
+      "topic": "Investing",
+      "tags": [
+        "Liquidity",
+        "Retirement Planning",
+        "Lock-in"
+      ],
+      "offsetSec": 367
+    },
+    {
+      "videoId": "dm5WGPmZXDM",
+      "takeaway": "NPS now allows 100% withdrawal for corpus up to ₹8 lakhs. For larger amounts, you can withdraw 80% as a lumpsum and only 20% for annuity, improving flexibility.",
+      "quote": "The former 60:40 rule has now been changed to 80:20.",
+      "topic": "Investing",
+      "tags": [
+        "Annuity",
+        "Withdrawal",
+        "Retirement"
+      ],
+      "offsetSec": 610
+    },
+    {
+      "videoId": "dm5WGPmZXDM",
+      "takeaway": "NPS now permits four partial withdrawals (up to 25% of own contribution) during the tenure, up from three, and also introduces an option to take loans against your contribution.",
+      "quote": "now it has now been increased to four withdrawals... But now an option has been given... to opt for loans.",
+      "topic": "Investing",
+      "tags": [
+        "Liquidity",
+        "Partial Withdrawal",
+        "Loans"
+      ],
+      "offsetSec": 643
+    },
+    {
+      "videoId": "dm5WGPmZXDM",
+      "takeaway": "Senior citizens can now invest gratuity or excess funds in NPS, potentially achieving 100% equity returns. Nominees receive the full amount tax-free upon death.",
+      "quote": "After retirement, many people can park their excess money in NPS... nominee will receive this money, without any taxation.",
+      "topic": "Investing",
+      "tags": [
+        "Senior Citizens",
+        "Post-Retirement",
+        "Tax-Free Nominee"
+      ],
+      "offsetSec": 711
+    },
+    {
+      "videoId": "dm5WGPmZXDM",
+      "takeaway": "Corporate NPS subscribers can now get tax exemption up to 14% of Basic + DA (previously 10%), allowing deductions up to ₹7.5 lakhs under 80CCD(2) in the new tax regime.",
+      "quote": "Earlier, its limit was increased to 10% of Basic + DA. It has now been increased to 14% of Basic + DA.",
+      "topic": "Tax",
+      "tags": [
+        "Corporate NPS",
+        "Tax Exemption",
+        "Salary"
+      ],
+      "offsetSec": 741
+    },
+    {
+      "videoId": "dm5WGPmZXDM",
+      "takeaway": "Indians renouncing citizenship and settling abroad can now withdraw 100% of their NPS corpus without any rules or regulations.",
+      "quote": "As soon as they've renounced their citizenship... You are then allowed to withdraw 100% NPS.",
+      "topic": "Investing",
+      "tags": [
+        "NRI",
+        "Withdrawal",
+        "Emigration"
+      ],
+      "offsetSec": 850
+    },
+    {
+      "videoId": "cE0n-fI5t-4",
+      "takeaway": "On long-term loans, you pay significantly more interest than principal, and your principal balance reduces very slowly in the initial years of repayment.",
+      "quote": "you will be paying me more than ₹65 lakhs in interest.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Loan repayment",
+        "Interest",
+        "Principal"
+      ],
+      "offsetSec": 19
+    },
+    {
+      "videoId": "cE0n-fI5t-4",
+      "takeaway": "Always choose a 'reducing balance interest rate' over a 'flat interest rate' as flat rates cost significantly more, even if they appear lower.",
+      "quote": "10% 'flat interest rate'... is worse than 17% 'reducing balance interest rate'.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Interest calculation",
+        "Flat rate",
+        "Reducing balance"
+      ],
+      "offsetSec": 546
+    },
+    {
+      "videoId": "cE0n-fI5t-4",
+      "takeaway": "Banks often increase loan interest rates immediately when the repo rate rises but require you to apply to reduce them when it falls. Regularly check your statements.",
+      "quote": "when the interest rate increases, then the banks immediately increase the home loan. But when it reduces, then you have to apply and reduce it.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Repo rate",
+        "Interest rates",
+        "Banks"
+      ],
+      "offsetSec": 410
+    },
+    {
+      "videoId": "cE0n-fI5t-4",
+      "takeaway": "Paying just one extra EMI per year can significantly reduce your total interest paid and shorten your loan tenure by several years.",
+      "quote": "If you start paying an additional EMI... I saved an interest of ₹5 lakhs.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Pre-payment",
+        "Interest savings",
+        "Loan tenure"
+      ],
+      "offsetSec": 821
+    },
+    {
+      "videoId": "cE0n-fI5t-4",
+      "takeaway": "When taking a new loan, opt for EBLR (External Benchmark Linked Rate) over MCLR (Marginal Cost of Funds Based Lending Rate) as EBLR is more transparent and linked to the repo rate.",
+      "quote": "you must take the EBLR.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Interest rates",
+        "EBLR",
+        "MCLR"
+      ],
+      "offsetSec": 467
+    },
+    {
+      "videoId": "cE0n-fI5t-4",
+      "takeaway": "Be aware of various loan charges. Always demand a Key Fact Statement (KFS) to understand all costs and the true Annualised Percentage Rate (APR) of your loan.",
+      "quote": "Always demand a KFS, i.e. 'Key Fact Statement'.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Loan charges",
+        "APR",
+        "KFS"
+      ],
+      "offsetSec": 1138
+    },
+    {
+      "videoId": "cE0n-fI5t-4",
+      "takeaway": "Lenders assess your credit score, Fixed Obligation to Income Ratio (FOIR, ideally below 40%), and Debt to Income ratio to determine your loan eligibility.",
+      "quote": "FOIR stands for 'Fixed Obligation to Income Ratio'.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Credit score",
+        "Loan eligibility",
+        "FOIR"
+      ],
+      "offsetSec": 995
+    },
+    {
+      "videoId": "cE0n-fI5t-4",
+      "takeaway": "After fully repaying your loan, always obtain a 'No Due Certificate' (NDC) from the bank to confirm your loan is officially closed and prevent future disputes.",
+      "quote": "definitely get the most important document from the bank.. i.e. 'No Due Certificate'.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Loan closure",
+        "NDC",
+        "Documentation"
+      ],
+      "offsetSec": 1163
+    },
+    {
+      "videoId": "iNp02zXy748",
+      "takeaway": "To claim HRA over ₹1 lakh, provide your landlord's PAN. A rent agreement is now mandatory for all HRA claims, and you must declare if paying rent to relatives.",
+      "quote": "If you are claiming more than ₹1 lakh HRA... you will have to mandatorily provide landlord's PAN.",
+      "topic": "Tax",
+      "tags": [
+        "HRA",
+        "Tax Exemption",
+        "Documents"
+      ],
+      "offsetSec": 112
+    },
+    {
+      "videoId": "iNp02zXy748",
+      "takeaway": "Bengaluru, Hyderabad, Pune, and Ahmedabad are now considered metro cities for HRA exemption, allowing employees in these areas to claim higher HRA benefits.",
+      "quote": "Bengaluru, Hyderabad, Pune, Ahmedabad... employees from these cities will be able to take benefit of higher HRA.",
+      "topic": "Tax",
+      "tags": [
+        "HRA",
+        "Metro Cities",
+        "Tax Exemption"
+      ],
+      "offsetSec": 85
+    },
+    {
+      "videoId": "iNp02zXy748",
+      "takeaway": "The old tax regime now offers significantly higher exemptions for education (₹3000/child/month), hostel (₹9000/child/month), meal coupons (₹200/meal), and gifts (up to ₹15,000).",
+      "quote": "Education allowance will go upto ₹72,000/ year. Hostel allowance upto ₹2,16,000/ year.",
+      "topic": "Tax",
+      "tags": [
+        "Old Tax Regime",
+        "Exemptions",
+        "Allowances"
+      ],
+      "offsetSec": 140
+    },
+    {
+      "videoId": "iNp02zXy748",
+      "takeaway": "With new, higher exemptions, the old tax regime is now more beneficial for those with a rented house, children, or a home loan. Re-evaluate your tax regime choice.",
+      "topic": "Tax",
+      "tags": [
+        "Tax Planning",
+        "Old Tax Regime",
+        "Financial Planning"
+      ],
+      "offsetSec": 690
+    },
+    {
+      "videoId": "iNp02zXy748",
+      "takeaway": "Salaried employees can pay zero tax up to ₹12.75 lakhs in the new tax regime, thanks to the ₹60,000 87A rebate and ₹75,000 standard deduction.",
+      "quote": "Salaried employees won't pay tax upto ₹12,75,000 in the new tax regime.",
+      "topic": "Tax",
+      "tags": [
+        "New Tax Regime",
+        "Salaried",
+        "Standard Deduction"
+      ],
+      "offsetSec": 243
+    },
+    {
+      "videoId": "iNp02zXy748",
+      "takeaway": "ITR deadlines for traders (ITR 3) and presumptive taxation filers (ITR 4) have been extended by one month. The deadline to revise returns is also extended.",
+      "quote": "Traders and presumptive taxation filers will receive relaxation for a month.",
+      "topic": "Tax",
+      "tags": [
+        "ITR",
+        "Deadlines",
+        "Tax Filing"
+      ],
+      "offsetSec": 274
+    },
+    {
+      "videoId": "iNp02zXy748",
+      "takeaway": "The previous Financial Year (FY) and Assessment Year (AY) terminology has been replaced by a single term: 'Tax Year', simplifying annual tax period references.",
+      "quote": "Only one name has been kept this year... i.e. Tax Year.",
+      "topic": "Tax",
+      "tags": [
+        "Tax Terminology",
+        "Financial Year",
+        "Assessment Year"
+      ],
+      "offsetSec": 315
+    },
+    {
+      "videoId": "hjpna_RKXMA",
+      "takeaway": "Secure significant car discounts by combining credit card rewards for down payments with direct dealer negotiations, especially on slow-moving models.",
+      "quote": "I got three different types of discounts on it.",
+      "topic": "Money Mindset",
+      "tags": [
+        "Car buying",
+        "Discounts",
+        "Strategy"
+      ],
+      "offsetSec": 160
+    },
+    {
+      "videoId": "hjpna_RKXMA",
+      "takeaway": "Maximize your savings by choosing banks offering high interest rates, like those linked to the repo rate, and utilize UPI cards for cashback on daily spending.",
+      "quote": "you will get 100% repo rate as interest.",
+      "topic": "Banking",
+      "tags": [
+        "Savings",
+        "Interest Rates",
+        "UPI"
+      ],
+      "offsetSec": 405
+    },
+    {
+      "videoId": "hjpna_RKXMA",
+      "takeaway": "For large purchases like cars, prioritize credit cards offering milestone-based bonus reward points, as these significantly boost your earnings beyond base rewards.",
+      "quote": "You've to select those cards in which you'll get 'Milestone Based Bonus Reward Points'.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Credit Cards",
+        "Rewards",
+        "Milestones"
+      ],
+      "offsetSec": 177
+    },
+    {
+      "videoId": "hjpna_RKXMA",
+      "takeaway": "When making large credit card payments at dealerships, always negotiate the Merchant Discount Rate (MDR) to reduce the extra charge passed on to you.",
+      "quote": "But you can negotiate this MDR.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Credit Cards",
+        "Negotiation",
+        "Fees"
+      ],
+      "offsetSec": 228
+    },
+    {
+      "videoId": "hjpna_RKXMA",
+      "takeaway": "Achieve the highest value from credit card reward points by transferring them to airline or hotel loyalty programs, often yielding better returns than direct redemption.",
+      "quote": "You will only get the best value.. when you transfer these points to an airline or a hotel programme.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Reward Points",
+        "Travel",
+        "Loyalty Programs"
+      ],
+      "offsetSec": 316
+    },
+    {
+      "videoId": "hjpna_RKXMA",
+      "takeaway": "When using credit cards for large payments, ensure sufficient credit limit, pay immediately to avoid CIBIL impact, and verify the merchant's category code for reward eligibility.",
+      "quote": "There are certain risks in this, which you must be aware of.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Credit Score",
+        "Credit Cards",
+        "Risk Management"
+      ],
+      "offsetSec": 697
+    },
+    {
+      "videoId": "hjpna_RKXMA",
+      "takeaway": "Seek direct dealer discounts on slow-selling car models. If a loan is a condition for a discount, take the minimum possible amount to qualify.",
+      "quote": "Suzuki started giving heavy discounts on it. Firstly, I straightaway received a discount of ₹1 lakh.",
+      "topic": "Credit & Loans",
+      "tags": [
+        "Car Buying",
+        "Discounts",
+        "Loans"
+      ],
+      "offsetSec": 618
+    },
+    {
+      "videoId": "ajjPurSStdw",
+      "takeaway": "The 18% GST on life and health insurance premiums will be removed for payments made after September 22, 2025. No refunds for advance payments.",
+      "quote": "If you pay the premiums of any of these policies after 22nd September, 2025. then GST won't be levied.",
+      "topic": "Tax",
+      "tags": [
+        "GST",
+        "Insurance Premium",
+        "Effective Date"
+      ],
+      "offsetSec": 94
+    },
+    {
+      "videoId": "ajjPurSStdw",
+      "takeaway": "Existing life and health insurance policyholders will see their premiums become roughly 15% cheaper after the 18% GST removal.",
+      "quote": "The premium generated on your life or health insurance, after 22nd September. It will be roughly 15% lesser.",
+      "topic": "Insurance",
+      "tags": [
+        "Premium",
+        "Savings",
+        "GST"
+      ],
+      "offsetSec": 142
+    },
+    {
+      "videoId": "ajjPurSStdw",
+      "takeaway": "New policyholders can currently avail significant discounts, up to 20% on Term Insurance premiums, beyond the upcoming GST benefit, for a limited time.",
+      "quote": "You will receive up to a 20% discount on Term Insurance premiums.",
+      "topic": "Insurance",
+      "tags": [
+        "Term Insurance",
+        "Discount",
+        "New Policy"
+      ],
+      "offsetSec": 169
+    },
+    {
+      "videoId": "ajjPurSStdw",
+      "takeaway": "Unlike term insurance, whose premium is fixed for life, health insurance premiums typically increase with your age over time.",
+      "quote": "Even after purchasing health insurance, it's premiums keep increasing with your age. Unlike term insurance, whose premium is fixed.",
+      "topic": "Insurance",
+      "tags": [
+        "Health Insurance",
+        "Premium",
+        "Age"
+      ],
+      "offsetSec": 288
+    },
+    {
+      "videoId": "ajjPurSStdw",
+      "takeaway": "Insurance companies losing Input Tax Credit due to GST removal will face 18% higher costs, which will likely lead to increased premiums in the future.",
+      "quote": "If you don't receive input tax credit, then the company's cost will increase by 18%.",
+      "topic": "Tax",
+      "tags": [
+        "Input Tax Credit",
+        "Premium Hike",
+        "Company Costs"
+      ],
+      "offsetSec": 482
+    },
+    {
+      "videoId": "ajjPurSStdw",
+      "takeaway": "The GST deduction primarily benefits pure risk policies like term and health insurance, rather than investment-linked plans such as Money Back or ULIPs.",
+      "quote": "The biggest advantage of GST deduction will reflect in term and health insurance policies. Because these are pure risk policies.",
+      "topic": "Insurance",
+      "tags": [
+        "Pure Risk",
+        "Term Insurance",
+        "ULIP"
+      ],
+      "offsetSec": 533
+    },
+    {
+      "videoId": "ajjPurSStdw",
+      "takeaway": "Purchase term insurance today to lock in the cheapest premium for your lifetime, as future premiums are expected to rise due to increasing company costs.",
+      "quote": "My suggestion for you is to purchase term insurance.. and lock the cheapest premium today. Because they will be same for your lifetime.",
+      "topic": "Insurance",
+      "tags": [
+        "Term Insurance",
+        "Lock-in",
+        "Future Premiums"
+      ],
+      "offsetSec": 559
+    },
+    {
+      "videoId": "YhFA9c3ByKY",
+      "takeaway": "Offer letters are not legally binding; insist on a signed employment contract with all terms and keep a copy for legal protection.",
+      "quote": "Offer Letter is NOT a legal document.",
+      "topic": "Salary & PF",
+      "tags": [
+        "Offer letter",
+        "Employment contract",
+        "Legal rights"
+      ],
+      "offsetSec": 89
+    },
+    {
+      "videoId": "YhFA9c3ByKY",
+      "takeaway": "Non-compete clauses are generally not legally enforceable in India if they restrict your fundamental right to earn a livelihood.",
+      "quote": "this non-compete clause, leaving certain special circumstances, will not be considered valid in court.",
+      "topic": "Salary & PF",
+      "tags": [
+        "Non-compete",
+        "Legal",
+        "Employment contract"
+      ],
+      "offsetSec": 300
+    },
+    {
+      "videoId": "YhFA9c3ByKY",
+      "takeaway": "Employment bonds for arbitrary amounts or without actual training are often invalid; never sign a blank cheque for a bond.",
+      "quote": "If the company collects a bond cheque signed by you... Definitely don't do this.",
+      "topic": "Salary & PF",
+      "tags": [
+        "Bond",
+        "Training",
+        "Legal"
+      ],
+      "offsetSec": 389
+    },
+    {
+      "videoId": "YhFA9c3ByKY",
+      "takeaway": "Maximize savings interest by using accounts like Slice that offer RBI repo rate (5.25%) compounded daily, or 7.75% on 1.5-year FDs.",
+      "quote": "Slice... gives a great interest on the money left in your savings account... equivalent to the RBI's repo rate.",
+      "topic": "Banking",
+      "tags": [
+        "Savings account",
+        "Interest",
+        "FD"
+      ],
+      "offsetSec": 481
+    },
+    {
+      "videoId": "YhFA9c3ByKY",
+      "takeaway": "Negotiate for a higher fixed pay component and lower variable pay, as variable pay can be 0-100% and tied to unachievable targets.",
+      "quote": "If the variable pay is high it means that you are giving too much power to the company.",
+      "topic": "Salary & PF",
+      "tags": [
+        "Salary negotiation",
+        "Variable pay",
+        "Compensation"
+      ],
+      "offsetSec": 562
+    },
+    {
+      "videoId": "YhFA9c3ByKY",
+      "takeaway": "Non-managerial employees working over 48 hours weekly are entitled to overtime pay at twice their basic salary rate, effective November 2025.",
+      "quote": "the employer has to pay overtime for the additional hours to their employees. That too, twice the rate of your basic salary.",
+      "topic": "Salary & PF",
+      "tags": [
+        "Overtime",
+        "Labour laws",
+        "Basic salary"
+      ],
+      "offsetSec": 649
+    },
+    {
+      "videoId": "YhFA9c3ByKY",
+      "takeaway": "Always obtain Form 16 from your employer to verify that your Tax Deducted at Source (TDS) has been deposited with the Income Tax department.",
+      "quote": "Hence, always keep Form 16 with you. Always remember to ask Form 16 from your employer.",
+      "topic": "Tax",
+      "tags": [
+        "Form 16",
+        "TDS",
+        "Income tax"
+      ],
+      "offsetSec": 797
+    },
+    {
+      "videoId": "YhFA9c3ByKY",
+      "takeaway": "You are eligible for gratuity after five years of service; fixed-term employees qualify proportionally after just one year under new labour codes.",
+      "quote": "If you are in a fixed-term employment... Even then you will be eligible for gratuity after one year of service.",
+      "topic": "Salary & PF",
+      "tags": [
+        "Gratuity",
+        "Fixed-term employment",
+        "Labour codes"
+      ],
+      "offsetSec": 927
+    },
+    {
+      "videoId": "YhFA9c3ByKY",
+      "takeaway": "Always obtain a relieving letter from your previous employer; it's crucial proof that your contract has ended and prevents PF transfer issues.",
+      "quote": "That proof is known to be your 'relieving letter'.",
+      "topic": "Salary & PF",
+      "tags": [
+        "Relieving letter",
+        "Employment proof",
+        "PF transfer"
+      ],
+      "offsetSec": 1140
+    }
+  ]
+}
