@@ -1,0 +1,18 @@
+<svg width="560" height="160" viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LLA Insights — unofficial">
+  <defs>
+    <style>.mark{font-family:"Anton","Archivo Black",Impact,system-ui,sans-serif;}</style>
+  </defs>
+  <!-- maroon rounded-square mark -->
+  <rect x="6" y="22" width="116" height="116" rx="26" fill="#7A1E1E"/>
+  <!-- LLA wordmark, white, condensed -->
+  <text x="64" y="108" text-anchor="middle" class="mark" font-size="62" fill="#FBF6EE" letter-spacing="-3">LLA</text>
+  <!-- hammer tick over the A (nod to LLA's labour-rights origin) -->
+  <g transform="translate(86,40) rotate(18)" fill="#E0A33E">
+    <rect x="0" y="6" width="24" height="7" rx="2"/>
+    <rect x="10" y="11" width="5" height="22" rx="2"/>
+  </g>
+  <!-- product wordmark -->
+  <text x="140" y="92" class="mark" font-size="56" fill="#1A1413" letter-spacing="-1">INSIGHTS</text>
+  <rect x="142" y="104" width="300" height="3" fill="#E0A33E"/>
+  <text x="143" y="128" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#6B5E5A" letter-spacing="2.5">THE LLA MONEY LIBRARY · UNOFFICIAL</text>
+</svg>

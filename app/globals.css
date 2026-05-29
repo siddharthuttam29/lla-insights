@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --maroon: #7a1e1e;
+    --maroon-deep: #5e1414;
+    --cream: #fbf6ee;
+    --ink: #1a1413;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink antialiased;
+    font-family: var(--font-sans), system-ui, sans-serif;
+    /* faint warm paper texture */
+    background-image: radial-gradient(rgba(122, 30, 30, 0.025) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  ::selection {
+    background: var(--maroon);
+    color: var(--cream);
+  }
+
+  /* Headlines default to the condensed display face, uppercase, tight. */
+  .font-display {
+    font-family: var(--font-display), "Impact", system-ui, sans-serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  /* The little uppercase meta label used across cards/sections. */
+  .meta-label {
+    @apply text-[0.7rem] font-semibold uppercase tracking-[0.12em];
+  }
+
+  /* Topic pill (small maroon chip). */
+  .topic-pill {
+    @apply inline-flex items-center rounded-full bg-maroon/10 px-2.5 py-0.5 text-[0.68rem] font-semibold uppercase tracking-wide text-maroon;
+  }
+
+  /* Eyebrow pill on the hero (cream outline). */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-cream/40 px-3.5 py-1.5 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-cream/90;
+  }
+
+  /* Focus-visible ring consistent with the brand. */
+  .ring-brand {
+    @apply outline-none ring-2 ring-maroon/40 ring-offset-2 ring-offset-cream;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar on the horizontally-scrolling chip rail (still scrollable). */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Clamp helpers for card titles. */
+  .clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+/* Respect reduced-motion globally for any CSS animation. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

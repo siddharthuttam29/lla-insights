@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "description": "Computed analytics for the LLA Insights site. Source: full pull of Labour Law Advisor's public YouTube catalog via YouTube Data API v3 (through Composio OAuth) on 2026-05-30. All 2,087 uploads enumerated and enriched with statistics + contentDetails. Numbers are point-in-time and should be re-pulled at build time for freshness.",
+    "thumbnail_url_pattern": "https://i.ytimg.com/vi/{VIDEO_ID}/maxresdefault.jpg  (fallback: hqdefault.jpg)",
+    "watch_url_pattern": "https://www.youtube.com/watch?v={VIDEO_ID}"
+  },
+  "channel": {
+    "name": "Labour Law Advisor",
+    "handle": "@LabourLawAdvisor",
+    "channelId": "UCVOTBwF0vnSxMRIbfSE_K_g",
+    "subscribers_approx": "5.44M",
+    "tagline": "We make India Jagruk",
+    "hosts": ["Rishabh Jain (Jagruk RJ)", "Mandeep Gill (Money Minded Mandeep)"],
+    "founded": "August 2017",
+    "captured": "2026-05-30"
+  },
+  "totals": {
+    "videos": 2087,
+    "longform": 603,
+    "shorts": 1484,
+    "total_views": 2055924364,
+    "total_likes": 122852965,
+    "total_comments": 1552405,
+    "first_year": "2017",
+    "last_year": "2026",
+    "avg_views_longform": 451028
+  },
+  "topics_longform": [
+    {"topic": "Other / Money", "count": 194, "views": 83478410},
+    {"topic": "Salary & Jobs", "count": 170, "views": 65827274},
+    {"topic": "Investing", "count": 68, "views": 42180733},
+    {"topic": "Tax", "count": 53, "views": 26717322},
+    {"topic": "Insurance", "count": 34, "views": 20587637},
+    {"topic": "Business & Startup", "count": 27, "views": 9508545},
+    {"topic": "Credit & Loans", "count": 22, "views": 7763208},
+    {"topic": "Govt Schemes", "count": 15, "views": 4930394},
+    {"topic": "Banking", "count": 14, "views": 7310406},
+    {"topic": "Real Estate", "count": 6, "views": 3666267}
+  ],
+  "by_year": [
+    {"year": "2017", "count": 7, "views": 2584036, "likes": 48296},
+    {"year": "2018", "count": 86, "views": 41619962, "likes": 737363},
+    {"year": "2019", "count": 107, "views": 30167570, "likes": 909899},
+    {"year": "2020", "count": 119, "views": 57461367, "likes": 1923634},
+    {"year": "2021", "count": 172, "views": 235887497, "likes": 12223605},
+    {"year": "2022", "count": 398, "views": 706137245, "likes": 50259979},
+    {"year": "2023", "count": 363, "views": 391259075, "likes": 25370882},
+    {"year": "2024", "count": 335, "views": 292131713, "likes": 16999121},
+    {"year": "2025", "count": 349, "views": 237701301, "likes": 11620487},
+    {"year": "2026", "count": 151, "views": 60974598, "likes": 2759699}
+  ],
+  "top_longform_by_views": [
+    {"id": "uv8q6Rgb8lk", "title": "PF Withdrawal Process Online | EPF ka paisa nikalne ka aasan tarika", "topic": "Salary & Jobs", "views": 4440841, "likes": 94187, "comments": 9783, "publishedAt": "2018-04-20"},
+    {"id": "FFWtUThoPqw", "title": "The LAST GUIDE to the BEST Term Insurance | No more miss-selling", "topic": "Insurance", "views": 3784196, "likes": 66490, "comments": 4596, "publishedAt": "2023-05-17"},
+    {"id": "UmLUqVaJN2w", "title": "e-Shram Card Kaise Banaye | Registration | Benefits | Online Apply", "topic": "Salary & Jobs", "views": 3756636, "likes": 72431, "comments": 1550, "publishedAt": "2021-11-30"},
+    {"id": "_ObE0wvE5Qs", "title": "Best Tax Saving Guide | Complete tax planning for salaried persons", "topic": "Tax", "views": 3442046, "likes": 89550, "comments": 2762, "publishedAt": "2021-04-27"},
+    {"id": "GqYfI1h4_Yg", "title": "Reality of Money Back Plans, Guaranteed Income, Endowment | Insurance + Investment?", "topic": "Investing", "views": 3401447, "likes": 108641, "comments": 9748, "publishedAt": "2020-12-04"},
+    {"id": "00DRsxH-im8", "title": "How Influencers & Media SCAM you | CHEATERS ultra pro max!", "topic": "Other / Money", "views": 3187473, "likes": 161358, "comments": 14381, "publishedAt": "2022-09-11"},
+    {"id": "wFDidmRsSpY", "title": "How to BUY SELL SHARES on Zerodha Demat a/c, KITE APP? Live Demo!", "topic": "Investing", "views": 2989556, "likes": 113298, "comments": 2925, "publishedAt": "2020-05-20"},
+    {"id": "7AVw6BIM3Uk", "title": "How to save money | 8 Practical tips in Hindi", "topic": "Other / Money", "views": 2775834, "likes": 89566, "comments": 4638, "publishedAt": "2018-09-05"},
+    {"id": "SNpjZ_wW7lQ", "title": "How to file ITR AY2025-26? ITR filing TUTORIAL for SALARIED EMPLOYEES | ITR 1", "topic": "Tax", "views": 2474435, "likes": 49984, "comments": 1599, "publishedAt": "2023-07-13"},
+    {"id": "UcXeVBMbC_E", "title": "Calculated the Returns | Gold vs Digital Gold vs SGB vs ETF | SHOCKING RESULTS", "topic": "Investing", "views": 2465915, "likes": 69153, "comments": 2428, "publishedAt": "2021-05-29"},
+    {"id": "YMjTktGtVCk", "title": "How to save LAKHS on your Home Loan: Complete Guide", "topic": "Credit & Loans", "views": 2450877, "likes": 95271, "comments": 4104, "publishedAt": "2023-11-11"},
+    {"id": "nfX-esge_3o", "title": "TAX on stock market & mutual funds | STCG, LTCG, and DIVIDENDS", "topic": "Tax", "views": 2389450, "likes": 83836, "comments": 3514, "publishedAt": "2020-11-07"},
+    {"id": "lQW-hTc7qV0", "title": "6 Reasons keeping you POOR | The Middle Class Trap", "topic": "Other / Money", "views": 2107548, "likes": 99092, "comments": 4262, "publishedAt": "2024-03-28"},
+    {"id": "aTQUB_1jREg", "title": "How I selected Best Term Insurance for me?", "topic": "Insurance", "views": 2006563, "likes": 102683, "comments": 5339, "publishedAt": "2020-10-09"},
+    {"id": "jpAY1f_1A5M", "title": "Ultimate Health Insurance Guide | The last video you need before buying policy!", "topic": "Insurance", "views": 1549110, "likes": 74266, "comments": 6180, "publishedAt": "2023-10-06"},
+    {"id": "Zhxp1BGgBn8", "title": "Don't Invest in Property before checking 10 DOCUMENTS", "topic": "Investing", "views": 2015304, "likes": 64698, "comments": 2369, "publishedAt": "2022-03-31"},
+    {"id": "wETGWFYsqMM", "title": "Term Insurance me agent/company kaise bewakoof bana rahe hain", "topic": "Insurance", "views": 1554235, "likes": 51218, "comments": 4840, "publishedAt": "2020-11-17"},
+    {"id": "kywWhBXyFg0", "title": "9 Simple Habits to Save Money in 2025", "topic": "Other / Money", "views": 1782647, "likes": 95322, "comments": 1973, "publishedAt": "2024-01-29"},
+    {"id": "jSF9kdYjiYY", "title": "National Pension System | NPS vs PPF vs MFs | Ultimate Guide", "topic": "Investing", "views": 1578373, "likes": 39629, "comments": 3364, "publishedAt": "2025-03-05"},
+    {"id": "AmZEqrWccdQ", "title": "Solar System for Home | Cost, Saving, Subsidy with Excel Calculation", "topic": "Other / Money", "views": 1662772, "likes": 61708, "comments": 3225, "publishedAt": "2022-07-05"}
+  ],
+  "top_longform_by_likes": [
+    {"id": "00DRsxH-im8", "title": "How Influencers & Media SCAM you", "likes": 161358, "views": 3187473},
+    {"id": "GqYfI1h4_Yg", "title": "Reality of Money Back Plans, Guaranteed Income, Endowment", "likes": 108641, "views": 3401447},
+    {"id": "aTQUB_1jREg", "title": "How I selected Best Term Insurance for me?", "likes": 102683, "views": 2006563},
+    {"id": "lQW-hTc7qV0", "title": "6 Reasons keeping you POOR | The Middle Class Trap", "likes": 99092, "views": 2107548},
+    {"id": "kywWhBXyFg0", "title": "9 Simple Habits to Save Money in 2025", "likes": 95322, "views": 1782647},
+    {"id": "YMjTktGtVCk", "title": "How to save LAKHS on your Home Loan", "likes": 95271, "views": 2450877},
+    {"id": "uv8q6Rgb8lk", "title": "PF Withdrawal Process Online", "likes": 94187, "views": 4440841},
+    {"id": "_ObE0wvE5Qs", "title": "Best Tax Saving Guide", "likes": 89550, "views": 3442046},
+    {"id": "7AVw6BIM3Uk", "title": "How to save money | 8 Practical tips", "likes": 89566, "views": 2775834},
+    {"id": "wFDidmRsSpY", "title": "How to BUY SELL SHARES on Zerodha", "likes": 113298, "views": 2989556}
+  ],
+  "top_longform_by_comments": [
+    {"id": "-t_TfZ3x2Tg", "title": "FRAUD Data Entry Companies Complaint | Part 2", "comments": 19327, "views": 562374},
+    {"id": "onQTBmx7Ibw", "title": "IPL WORST EXPERIENCE SMS Jaipur", "comments": 16248, "views": 2710930},
+    {"id": "00DRsxH-im8", "title": "How Influencers & Media SCAM you", "comments": 14381, "views": 3187473},
+    {"id": "qGuhSPTEERQ", "title": "FRAUD Data Entry Jobs - Fake Companies EXPOSED", "comments": 12382, "views": 1338105},
+    {"id": "GqYfI1h4_Yg", "title": "Reality of Money Back Plans", "comments": 9748, "views": 3401447},
+    {"id": "uv8q6Rgb8lk", "title": "PF Withdrawal Process Online", "comments": 9783, "views": 4440841},
+    {"id": "J1GBqATZBRA", "title": "Rooftop Solar is RISKY!? PM-SGY Subsidy rules", "comments": 8002, "views": 1531349},
+    {"id": "jpAY1f_1A5M", "title": "Ultimate Health Insurance Guide", "comments": 6180, "views": 1549110},
+    {"id": "gcNmzgE1XWo", "title": "Blockbuster or Disaster? | Budget 2024 EXPLAINED", "comments": 7532, "views": 775127},
+    {"id": "czMUlsMduyE", "title": "Budget 2025 in just 15 minutes", "comments": 6020, "views": 856163}
+  ],
+  "top_shorts_by_views": [
+    {"id": "uxtsIjFegko", "title": "Ye hai Modern Zamana", "views": 16761755, "likes": 721964},
+    {"id": "POpNsy1a-cQ", "title": "Parle G is a Million Dollar Biscuit!", "views": 16524678, "likes": 1080783},
+    {"id": "8M_ROypWJvk", "title": "Why no pockets for girls' clothing?", "views": 16164401, "likes": 1059562},
+    {"id": "knDkw6w8oAs", "title": "Breaking a BIG myth", "views": 14765099, "likes": 840693},
+    {"id": "Oj-i1TeYA94", "title": "3 Things Not to do with Credit Card", "views": 13781804, "likes": 500298},
+    {"id": "FAdMrpu7g4I", "title": "My issue with iPhone 14", "views": 12278417, "likes": 804103},
+    {"id": "DiMOXHFaqL8", "title": "Paying 31 lakhs for a 15 lakh Car", "views": 11666696, "likes": 633949},
+    {"id": "UFyPh_bpG1U", "title": "China is Scared of Him!", "views": 10619384, "likes": 691008},
+    {"id": "qOkkjL94oMs", "title": "Decoding good old Number plates", "views": 10542718, "likes": 539593},
+    {"id": "zuL8l0Yh0G0", "title": "Free Windows", "views": 10201684, "likes": 552962}
+  ]
+}
