@@ -44,9 +44,27 @@ Hard rules:
 - Do NOT use em dashes or en dashes. Use commas, periods, or hyphens only.
 Return STRICT JSON only: { "insights": [ ... ] }.`;
 
-// Load every long-form video the app already knows about.
+// Source = (videos already in the app) ∪ (new top-views candidates pulled fresh
+// from the LLA catalog into pipeline/seed-assets/new_videos.json). The seed
+// merger picks up any new IDs that get extractions and registers them.
 const allVideos = JSON.parse(fs.readFileSync(path.join(ROOT, "data/videos.json"), "utf8"));
-const VIDEOS = allVideos.filter((v) => !v.isShort);
+const fromApp = allVideos.filter((v) => !v.isShort);
+const NEW_PATH = path.join(ROOT, "pipeline/seed-assets/new_videos.json");
+const newCands = fs.existsSync(NEW_PATH)
+  ? (() => {
+      const j = JSON.parse(fs.readFileSync(NEW_PATH, "utf8"));
+      return [...(j.primary || []), ...(j.fallback || [])]
+        .filter((v) => v.id && !v.id.endsWith("_placeholder"))
+        .map((v) => ({ ...v, isShort: false }));
+    })()
+  : [];
+const seen = new Set();
+const VIDEOS = [...fromApp, ...newCands].filter((v) => {
+  if (seen.has(v.id)) return false;
+  seen.add(v.id);
+  return true;
+});
+console.log(`source: ${fromApp.length} in-app + ${newCands.length} new candidates = ${VIDEOS.length} unique`);
 
 // Load existing extracted.json so we only spend tokens on new videos.
 let existing = { videos: [], insights: [] };
