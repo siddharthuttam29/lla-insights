@@ -32,7 +32,7 @@ export default function Explorer({
 
   // ── derive state from the URL (single source of truth) ──────────────────
   const q = sp.get("q") ?? "";
-  const view: ViewMode = sp.get("view") === "topic" ? "topic" : "video";
+  const view: ViewMode = sp.get("view") === "video" ? "video" : "topic";
   const topic = slugToTopic(sp.get("topic") ?? "") ?? "all";
   const sort = (["views", "newest", "az"].includes(sp.get("sort") ?? "")
     ? sp.get("sort")
@@ -107,7 +107,7 @@ export default function Explorer({
         onTopic={(t) => setParam({ topic: t === "all" ? null : topicToSlug(t) })}
         counts={counts}
         view={view}
-        onView={(v) => setParam({ view: v === "video" ? null : v })}
+        onView={(v) => setParam({ view: v === "topic" ? null : v })}
         sort={sort}
         onSort={(s) => setParam({ sort: s === "views" ? null : s })}
       />
