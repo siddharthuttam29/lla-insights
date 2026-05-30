@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { Linkedin } from "lucide-react";
 import { stats } from "@/lib/data";
-import { SITE } from "@/lib/site";
+import { MAKER, SITE } from "@/lib/site";
 import EmailSignup from "./EmailSignup";
 
 // Footer carries the legal/ethical disclaimers (BUILD-SPEC §10), the
@@ -39,7 +40,31 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col gap-2 border-t border-cream/15 pt-6 text-xs text-cream/60 sm:flex-row sm:items-center sm:justify-between">
+        {/* Maker credit, a small "who built this" line. Higher-trust than
+            anonymous, low enough that it doesn't feel like self-promo. */}
+        <div className="mt-10 flex flex-wrap items-center gap-x-3 gap-y-1.5 border-t border-cream/15 pt-6 text-xs text-cream/70">
+          <span>Built by</span>
+          <a
+            href={MAKER.linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 font-semibold text-cream hover:text-gold"
+          >
+            {MAKER.name}
+            <Linkedin size={13} aria-label="LinkedIn" />
+          </a>
+          <span aria-hidden>·</span>
+          <a
+            href={MAKER.quberaUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cream/80 hover:text-gold"
+          >
+            {MAKER.tagline}
+          </a>
+        </div>
+
+        <div className="mt-3 flex flex-col gap-2 text-xs text-cream/60 sm:flex-row sm:items-center sm:justify-between">
           <p>
             Unofficial · not affiliated with Labour Law Advisor. Educational only, not
             financial advice.

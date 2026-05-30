@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import Image from "next/image";
+import SurpriseButton from "./SurpriseButton";
 import { compactNumber } from "@/lib/format";
 import type { Stats } from "@/lib/types";
 
@@ -84,6 +85,12 @@ export default function Hero({
               </div>
             ))}
           </dl>
+
+          {/* Random-pick affordance, sits below the stats so it doesn't fight
+              the headline for attention but is high enough to be discovered. */}
+          <div className="mt-7">
+            <SurpriseButton variant="hero" />
+          </div>
         </div>
 
         {/* ── hosts panel ── */}

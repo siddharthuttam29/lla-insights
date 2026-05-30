@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Linkedin } from "lucide-react";
 import { stats, totalInsights } from "@/lib/data";
-import { SITE } from "@/lib/site";
+import { MAKER, SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
@@ -62,6 +63,33 @@ export default function AboutPage() {
             words; any quoted line is kept short and attributed, linking back to the source. Whole
             transcripts are never reproduced here.
           </p>
+        </div>
+
+        <div className="rounded-2xl border border-line bg-cream p-6">
+          <h2 className="font-display text-lg uppercase tracking-wide text-maroon">
+            Who made this
+          </h2>
+          <p className="mt-3 text-[0.96rem] text-muted">
+            {MAKER.about}
+          </p>
+          <div className="mt-4 flex flex-wrap gap-2">
+            <a
+              href={MAKER.linkedinUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-line bg-card px-3.5 py-1.5 text-sm font-semibold text-ink transition hover:border-maroon/40 hover:text-maroon"
+            >
+              <Linkedin size={14} /> {MAKER.name} on LinkedIn
+            </a>
+            <a
+              href={MAKER.quberaUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-line bg-card px-3.5 py-1.5 text-sm font-semibold text-ink transition hover:border-maroon/40 hover:text-maroon"
+            >
+              Qubera.club ↗
+            </a>
+          </div>
         </div>
 
         <div>

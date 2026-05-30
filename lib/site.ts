@@ -38,6 +38,19 @@ export const SITE = {
   removalContact: "Open an issue on the project repo to request removal.",
 } as const;
 
+// Maker credit shown in footer + /about. Tiny touch of self-promo on an
+// otherwise unofficial site, useful as a credibility signal more than for
+// click-through. Tweak in one place, renders everywhere.
+export const MAKER = {
+  name: "Siddharth Uttam",
+  tagline: "Co-founder, Qubera.club",
+  linkedinUrl: "https://www.linkedin.com/in/siddharth-uttam/",
+  quberaUrl: "https://qubera.club",
+  // Short pitch for /about, where there's room to breathe.
+  about:
+    "Sid is the co-founder of Qubera.club, an AI-first personal finance app for Indian HENRYs. He built this LLA Insights tribute as a public-good distillation of the show that made him jagruk in the first place.",
+} as const;
+
 // NOTE: OG images are produced by the file-convention generators
 // (app/opengraph-image.tsx + app/insight/[id]/opengraph-image.tsx). Next
 // pre-renders them at build time, so they work in BOTH dynamic and static
