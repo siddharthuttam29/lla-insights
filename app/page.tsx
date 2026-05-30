@@ -20,7 +20,7 @@ export default function HomePage() {
   return (
     <>
       <Hero stats={stats} insightCount={totalInsights()} videoCount={videos.length} />
-      <InsightOfTheDay insight={featured} />
+      <InsightOfTheDay initial={featured} all={insights} />
       <Suspense fallback={<div className="mx-auto max-w-7xl px-4 py-20 text-muted">Loading…</div>}>
         <Explorer insights={insights} videos={videos} counts={counts} />
       </Suspense>

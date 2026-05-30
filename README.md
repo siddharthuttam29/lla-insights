@@ -62,28 +62,6 @@ The switch lives in [`next.config.mjs`](next.config.mjs) (flips `output` +
 
 ---
 
-## Email signup ("Jagruk Learners")
-
-The footer form posts to `/api/subscribe` (edge route). No DB on our side, all
-state lives in Resend. The route reads three env vars in this priority order:
-
-| Env var | What it does |
-|---|---|
-| `RESEND_API_KEY` | Resend account key. Get one at resend.com (free 3000 emails/mo). |
-| `RESEND_AUDIENCE_ID` | If set, new emails are added to a Resend Audience (mailing list). |
-| `RESEND_NOTIFY_EMAIL` | If `AUDIENCE_ID` is missing, each signup is forwarded to this address. |
-| `RESEND_FROM` | Optional. Defaults to `onboarding@resend.dev` (Resend's shared sender). |
-
-Until you add `RESEND_API_KEY` in Vercel → Project → Settings → Environment
-Variables, the form gracefully falls back to a `mailto:` link so signups still
-reach you. **No code changes needed to switch from fallback to live.**
-
-To add the env var: `vercel env add RESEND_API_KEY` (or via the dashboard),
-then redeploy. To create an audience: Resend dashboard → Audiences → New →
-copy the ID into `RESEND_AUDIENCE_ID`.
-
----
-
 ## Routes
 
 | Route | What |

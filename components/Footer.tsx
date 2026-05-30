@@ -2,16 +2,15 @@ import Link from "next/link";
 import { Linkedin } from "lucide-react";
 import { stats } from "@/lib/data";
 import { MAKER, SITE } from "@/lib/site";
-import EmailSignup from "./EmailSignup";
 
-// Footer carries the legal/ethical disclaimers (BUILD-SPEC §10), the
-// "Jagruk Learners" signup, and the freshness date.
+// Footer carries the legal/ethical disclaimers (BUILD-SPEC §10), the maker
+// credit, and the freshness date.
 export default function Footer() {
   const captured = stats.totals && stats._meta?.captured;
   return (
     <footer className="mt-20 border-t border-line bg-maroon-grad text-cream">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
-        <div className="grid gap-10 sm:grid-cols-[1.2fr_auto_1fr] sm:items-start">
+        <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div className="max-w-md">
             <p className="font-display text-2xl tracking-tight">LLA INSIGHTS</p>
             <p className="mt-3 text-sm leading-relaxed text-cream/80">
@@ -21,7 +20,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <nav className="grid grid-cols-2 gap-x-8 gap-y-2 text-sm sm:grid-cols-1">
+          <nav className="grid grid-cols-2 gap-x-10 gap-y-2 text-sm">
             <Link href="/" className="text-cream/80 hover:text-cream">Home</Link>
             <Link href="/numbers" className="text-cream/80 hover:text-cream">By the Numbers</Link>
             <Link href="/about" className="text-cream/80 hover:text-cream">About</Link>
@@ -34,10 +33,6 @@ export default function Footer() {
               LLA on YouTube ↗
             </a>
           </nav>
-
-          <div>
-            <EmailSignup />
-          </div>
         </div>
 
         {/* Maker credit, a small "who built this" line. Higher-trust than
